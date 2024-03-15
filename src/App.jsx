@@ -1,8 +1,9 @@
 import "./App.css";
+import SelectButton from "./components/selectButton/SelectButton";
 
 function App() {
   return (
-    <div className="min-w-screen min-h-screen bg-white flex flex-col items-center justify-center">
+    <div className="px-20 bg-blue-100 space-y-10 flex flex-col items-center justify-center">
       {/* <div>
         <label className="block mb-2" htmlFor="text">
           Enter Your Name Here
@@ -58,6 +59,7 @@ function App() {
           </label>
         </div>
       </div>
+      <SelectButton></SelectButton>
     </div>
   );
 }
